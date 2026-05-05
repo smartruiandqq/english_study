@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(135deg, #74B9FF 0%, #a29bfe 100%);
+  min-height: 100vh;
+}
