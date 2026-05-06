@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://english-study-i72u.onrender.com/:path*" }
+    { "source": "/api/translate/", "destination": "https://english-study-i72u.onrender.com/api/translate/" },
+    { "source": "/api/image/", "destination": "https://english-study-i72u.onrender.com/api/image/" },
+    { "source": "/api/tts/", "destination": "https://english-study-i72u.onrender.com/api/tts/" },
+    { "source": "/api/tts/voices/", "destination": "https://english-study-i72u.onrender.com/api/tts/voices/" }
   ]
 }
